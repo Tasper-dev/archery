@@ -1,21 +1,24 @@
 header {
-    background-color: #444444;
+    background-color: #1b447f;
     margin: 0;
 
 }
 
 h1 {
     color: white;
-    padding: 2rem 8rem 5rem 5rem;
+    padding: 2rem 2rem 4rem 5rem;
     margin: 0;
+    font-family: Roboto, Arial, sans-serif;
     font-size: 3.5rem;
     float: left;
 
 }
 
 h2 {
-    font-size: 1.7rem;
-    padding-left: 2rem;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 2rem;
+    padding-left: 5rem;
+    color: #1b447f
 }
 
 nav {
@@ -29,17 +32,18 @@ ul {
     flex-direction: wrap;
     flex-wrap: wrap;
     justify-content: center;
+    margin: 0;
 
 }
 
 li {
     display: inline;
-    padding: .5rem;
+    padding: .5rem 1rem .5rem 1rem;
     color: white;
 }
 
 nav a {
-    color: #444444;
+    color: black;
     text-decoration: none;
     font-size: 1.5rem;
 
@@ -62,7 +66,7 @@ a:hover {
 
 
 footer {
-    background-color: #444444;
+    background-color: #1b447f;
     color: white;
     margin: 0;
     padding: 3rem;
@@ -99,7 +103,7 @@ body {
 
 .grid-container {
     padding: .5rem;
-    margin: 1rem;
+    margin: 3rem;
     display: grid;
     grid-gap: .3rem .3rem;
     grid-template-columns: 1fr 1fr 1fr;
@@ -142,25 +146,29 @@ body {
 
 .grid-item-4 {
     grid-area: 2/1/3/4;
-    padding: .5rem 0 0 5rem;
+    padding: .5rem .5rem .5rem 5rem;
+
 }
 
 .grid-item-5 {
     grid-area: 3/1/4/2;
     background-color: #ecb722;
     padding: .5rem;
+    text-align: center;
 }
 
 .grid-item-6 {
     grid-area: 3/2/4/3;
     background-color: #ecb722;
     padding: .5rem;
+    text-align: center;
 }
 
 .grid-item-7 {
     grid-area: 3/3/4/4;
     background-color: #ecb722;
     padding: .5rem;
+    text-align: center;
 }
 
 .grid-item-8 {
@@ -182,12 +190,14 @@ article:hover {
 .page-heading {
     font-size: 36px;
     color: #03a3df;
-    padding-left: 8rem;
+    padding: 0 0 2rem 5rem;
+    margin: 0;
     clear: left;
 }
 
 .about-grid-container {
     padding: .5rem;
+    margin: 1rem 3rem 1rem 3rem;
     display: grid;
     grid-gap: .3rem .3rem;
     grid-template-columns: 1fr 1fr 1fr;
@@ -219,7 +229,7 @@ article:hover {
 
 .about-grid-5 {
     grid-area: 3/1/4/4;
-    padding: .5rem;
+    padding: .5rem 0 .5rem 5rem;
 }
 
 .about-grid-6 {
